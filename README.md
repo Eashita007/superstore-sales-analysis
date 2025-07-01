@@ -1,4 +1,4 @@
-# 📊 Superstore Sales Analysis using SQL
+# 📊 Superstore Sales Analysis using SQL (Task 6)
 
 This project performs a time-based trend analysis on the Superstore sales dataset using **MySQL**. It identifies monthly **revenue** and **order volume** patterns using SQL aggregation functions, and exports results for reporting or dashboarding.
 
@@ -17,6 +17,7 @@ superstore-sales-analysis/
 ├── load_superstore.py # Loads cleaned CSV into MySQL
 ├── export_results.py # Exports monthly summary to CSV
 ├── .env # Stores DB credentials (not tracked)
+├── example.env # Stores DB credentials (example file for user to put their credentials)
 ├── .gitignore # Ignores sensitive and unnecessary files
 ├──  requirements.txt # Requirements for the setup
 └── README.md # Project overview (this file)
